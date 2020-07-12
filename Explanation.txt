@@ -1,0 +1,32 @@
+Ruby is a smart girl, she wanted to a develop a dictionary, where if she give a word to find in the dictionary 
+it should return true if the word is presented in the dictionary, return false it is not,
+but there is a constraint, since she is a smart girl, she wanted to find the word in dict, where the given word should be exactly 
+differ by one character in that word, for example , the word in dict is 'Hey', she has to give 'Hay' or 'Jey' or 'Heu' then it should return true.
+else false. initially she have to build the dictionary.
+ 
+Input description:
+Words to build the dictionary followed by word to search in next line
+
+Output description:
+True or False
+
+Sample input:
+ruby india america
+jndia
+
+Sample output:
+True
+
+Explanation:
+The given word 'jndia' which is exactly differ from one character 'india' so the output is True.
+
+Sample input:
+awesome hi hello
+hi
+
+Sample output:
+False
+
+Explanation:
+the given word 'hi' is exactly presented in dictionary so there is no word differing exactly one character.
+so the output is Flase
